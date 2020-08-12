@@ -16,11 +16,11 @@
 #include "oplsaa.ff/forcefield.itp"
 
 ; Include Molecule definition
-#include "Glucose.itp"
+#include "Acetate.itp"
 
 ; Include Position restraint file
 #ifdef POSRES
-#include "Glucose-posres.itp"
+#include "Acetate-posres.itp"
 #endif
 
 ; Include water topology
@@ -31,11 +31,8 @@
 
 [ system ]
 ; Name
-Glucose in water
+Acetate
 
 [ molecules ]
 ; Compound        #mols
-GLR               1
-SOL               387
-SOL               387
-SOL               387
+ACT               1

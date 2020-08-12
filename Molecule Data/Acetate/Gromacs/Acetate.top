@@ -31,8 +31,9 @@
 
 [ system ]
 ; Name
-Acetate
+Acetate in water
 
 [ molecules ]
 ; Compound        #mols
 ACT               1
+SOL               391
